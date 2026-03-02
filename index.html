@@ -18,6 +18,11 @@
             text-align: center;
             padding: 1em 0;
         }
+        header img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
         section {
             padding: 20px;
             margin: 10px;
@@ -36,6 +41,10 @@
             margin: 5px 0;
             padding: 10px;
             border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+        li:hover {
+            background-color: #FF6347; /* Cor do fundo muda ao passar o mouse */
         }
         footer {
             text-align: center;
@@ -43,11 +52,31 @@
             background-color: #FF6347; /* Cor vermelha */
             color: white;
         }
+        a {
+            color: #FF6347;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        button {
+            background-color: #FF6347;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            margin-top: 10px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #e5533b;
+        }
     </style>
 </head>
 <body>
 
 <header>
+    <img src="https://via.placeholder.com/1200x400/FF6347/ffffff?text=Dicas+de+Relacionamento" alt="Imagem de relacionamento">
     <h1>Dicas para um Relacionamento Saudável</h1>
 </header>
 
@@ -81,14 +110,73 @@
     <p>Embora seja importante estar junto, também é necessário que cada um tenha espaço para cuidar de si mesmo, seus amigos e interesses pessoais.</p>
 </section>
 
+<!-- Citação Inspiradora -->
+<section>
+    <h2>Citação do Dia</h2>
+    <blockquote>
+        "O verdadeiro amor não é sobre encontrar alguém com quem viver. É sobre encontrar alguém com quem você não pode viver sem." - <em>Rafael Santandreu</em>
+    </blockquote>
+</section>
+
+<!-- Redes Sociais -->
+<section>
+    <h2>Conecte-se Conosco</h2>
+    <p>Siga-nos nas redes sociais para mais dicas!</p>
+    <a href="https://www.instagram.com" target="_blank">Instagram</a> |
+    <a href="https://www.facebook.com" target="_blank">Facebook</a> |
+    <a href="https://twitter.com" target="_blank">Twitter</a>
+</section>
+
+<!-- Perguntas Frequentes -->
+<section>
+    <h2>Perguntas Frequentes (FAQ)</h2>
+    <ul>
+        <li><strong>Como manter a chama do relacionamento acesa?</strong>
+            <p>Uma das formas é reservar tempo de qualidade para o casal, realizar surpresas e manter a comunicação aberta.</p>
+        </li>
+        <li><strong>É normal ter discussões no relacionamento?</strong>
+            <p>Sim, discussões são normais. O importante é resolver os conflitos com respeito e compreensão.</p>
+        </li>
+    </ul>
+</section>
+
+<!-- Formulário de Comentários -->
+<section>
+    <h2>Deixe seu comentário</h2>
+    <form action="#" method="post">
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" required>
+        
+        <label for="comentario">Comentário:</label>
+        <textarea id="comentario" name="comentario" rows="4" required></textarea>
+        
+        <button type="submit">Enviar</button>
+    </form>
+</section>
+
+<!-- Recursos Recomendados -->
+<section>
+    <h2>Recursos Recomendados</h2>
+    <ul>
+        <li><a href="https://www.amazon.com.br" target="_blank">Livro: "Os 5 Linguagens do Amor" de Gary Chapman</a></li>
+        <li><a href="https://www.podcast.com" target="_blank">Podcast: "Amor e Relacionamento" - Episódio 45</a></li>
+    </ul>
+</section>
+
+<!-- Botões para Compartilhar -->
+<section>
+    <h2>Compartilhe este conteúdo</h2>
+    <a href="https://www.facebook.com/sharer/sharer.php?u=https://seusite.com" target="_blank">
+        <button>Compartilhar no Facebook</button>
+    </a>
+    <a href="https://api.whatsapp.com/send?text=https://seusite.com" target="_blank">
+        <button>Compartilhar no WhatsApp</button>
+    </a>
+</section>
+
 <footer>
     <p>&copy; 2026 Dicas de Relacionamento</p>
 </footer>
-
-<header>
-    <img src="https://via.placeholder.com/1200x400/FF6347/ffffff?text=Dicas+de+Relacionamento" alt="Imagem de relacionamento" style="width: 100%; height: auto; border-radius: 8px;">
-    <h1>Dicas para um Relacionamento Saudável</h1>
-</header>
 
 </body>
 </html>
