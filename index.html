@@ -19,9 +19,10 @@
             padding: 1em 0;
         }
         header img {
-            width: 100%;
-            height: auto;
-            border-radius: 8px;
+            width: 100%; /* A imagem vai ocupar 100% da largura do container */
+            height: auto; /* A altura será ajustada automaticamente */
+            max-width: 800px; /* Limita a largura máxima da imagem */
+            margin: 0 auto; /* Centraliza a imagem */
         }
         section {
             padding: 20px;
@@ -75,7 +76,145 @@
         /* Responsividade */
         @media (max-width: 768px) {
             header img {
-                width: 100%;
+                width: 100%; /* Faz a imagem ocupar toda a largura da tela */
+                height: auto;
+            }
+            section {
+                padding: 15px;
+                margin: 5px;
+            }
+            button {
+                padding: 8px 16px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <img src="https://via.placeholder.com/1200x400/FF6347/ffffff?text=Dicas+de+Relacionamento" alt="Imagem representando dicas para um relacionamento saudável">
+    <h1>Dicas para um Relacionamento Saudável</h1>
+</header>
+
+<section>
+    <h2>1. Comunicação é a chave</h2>
+    <p>A comunicação clara e honesta é fundamental para qualquer relacionamento. Sempre procure ouvir o seu parceiro(a) e expresse seus sentimentos com empatia.</p>
+</section>
+
+<section>
+    <h2>2. Respeito mútuo</h2>
+    <p>Respeitar as opiniões, sentimentos e limites do outro é essencial. Isso cria uma base de confiança e harmonia entre o casal.</p>
+</section>
+
+<section>
+    <h2>3. Passar tempo juntos</h2>
+    <p>É importante reservar tempo para atividades a dois, seja para conversar, se divertir ou simplesmente relaxar juntos. Isso fortalece os laços afetivos.</p>
+</section>
+
+<section>
+    <h2>4. Resolver conflitos com paciência</h2>
+    <p>Discussões podem acontecer, mas é crucial que os conflitos sejam resolvidos com paciência, respeito e vontade de compreender o outro.</p>
+</section>
+
+<section>
+    <h2>5. Surpresas e pequenos gestos</h2>
+    <p>Pequenos gestos de carinho e surpresas inesperadas podem renovar o romance e manter a chama acesa no relacionamento.</p>
+</section>
+
+<section>
+    <h2>6. Manter a individualidade</h2>
+    <p>Embora seja importante estar junto, também é necessário que cada um tenha espaço para cuidar de si mesmo, seus amigos e interesses pessoais.</p>
+</section>
+
+<!-- Citação Inspiradora -->
+<section>
+    <h2>Citação do Dia</h2>
+    <blockquote>
+        "O verdadeiro amor não é sobre encontrar alguém com quem viver. É sobre encontrar alguém com quem você não pode viver sem." - <em>Rafael Santandreu</em>
+    </blockquote>
+</section>
+
+<!-- Redes Sociais -->
+<section>
+    <h2>Conecte-se Conosco</h2><!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Encontre dicas para fortalecer seu relacionamento, melhorar a comunicação e viver de forma mais harmoniosa com seu parceiro(a).">
+    <title>Dicas de Relacionamento</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f4f8;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #FF6347; /* Cor vermelha */
+            color: white;
+            text-align: center;
+            padding: 1em 0;
+        }
+        header img {
+            width: 100%; /* A imagem vai ocupar 100% da largura do container */
+            height: auto; /* A altura será ajustada automaticamente */
+            max-width: 800px; /* Limita a largura máxima da imagem */
+            margin: 0 auto; /* Centraliza a imagem */
+        }
+        section {
+            padding: 20px;
+            margin: 10px;
+            background-color: white;
+            border-radius: 8px;
+        }
+        h2 {
+            color: #333;
+        }
+        ul {
+            list-style-type: none;
+            padding-left: 0;
+        }
+        li {
+            background: #FFDDC1; /* Fundo vermelho claro */
+            margin: 5px 0;
+            padding: 10px;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+        li:hover {
+            background-color: #FF6347; /* Cor do fundo muda ao passar o mouse */
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #FF6347; /* Cor vermelha */
+            color: white;
+        }
+        a {
+            color: #FF6347;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        button {
+            background-color: #FF6347;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            margin-top: 10px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #e5533b;
+        }
+        
+        /* Responsividade */
+        @media (max-width: 768px) {
+            header img {
+                width: 100%; /* Faz a imagem ocupar toda a largura da tela */
                 height: auto;
             }
             section {
@@ -136,6 +275,65 @@
 <!-- Redes Sociais -->
 <section>
     <h2>Conecte-se Conosco</h2>
+    <p>Siga-nos nas redes sociais para mais dicas!</p>
+    <a href="https://www.instagram.com" target="_blank">Instagram</a> |
+    <a href="https://www.facebook.com" target="_blank">Facebook</a> |
+    <a href="https://twitter.com" target="_blank">Twitter</a>
+</section>
+
+<!-- Perguntas Frequentes -->
+<section>
+    <h2>Perguntas Frequentes (FAQ)</h2>
+    <ul>
+        <li><strong>Como manter a chama do relacionamento acesa?</strong>
+            <p>Uma das formas é reservar tempo de qualidade para o casal, realizar surpresas e manter a comunicação aberta.</p>
+        </li>
+        <li><strong>É normal ter discussões no relacionamento?</strong>
+            <p>Sim, discussões são normais. O importante é resolver os conflitos com respeito e compreensão.</p>
+        </li>
+    </ul>
+</section>
+
+<!-- Formulário de Comentários -->
+<section>
+    <h2>Deixe seu comentário</h2>
+    <form action="#" method="post" aria-label="Formulário de Comentários">
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" required>
+        
+        <label for="comentario">Comentário:</label>
+        <textarea id="comentario" name="comentario" rows="4" required></textarea>
+        
+        <button type="submit">Enviar</button>
+    </form>
+</section>
+
+<!-- Recursos Recomendados -->
+<section>
+    <h2>Recursos Recomendados</h2>
+    <ul>
+        <li><a href="https://www.amazon.com.br" target="_blank">Livro: "Os 5 Linguagens do Amor" de Gary Chapman</a></li>
+        <li><a href="https://www.podcast.com" target="_blank">Podcast: "Amor e Relacionamento" - Episódio 45</a></li>
+    </ul>
+</section>
+
+<!-- Botões para Compartilhar -->
+<section>
+    <h2>Compartilhe este conteúdo</h2>
+    <a href="https://www.facebook.com/sharer/sharer.php?u=https://seusite.com" target="_blank">
+        <button>Compartilhar no Facebook</button>
+    </a>
+    <a href="https://api.whatsapp.com/send?text=https://seusite.com" target="_blank">
+        <button>Compartilhar no WhatsApp</button>
+    </a>
+</section>
+
+<footer>
+    <p>&copy; 2026 Dicas de Relacionamento</p>
+</footer>
+
+</body>
+</html>
     <p>Siga-nos nas redes sociais para mais dicas!</p>
     <a href="https://www.instagram.com" target="_blank">Instagram</a> |
     <a href="https://www.facebook.com" target="_blank">Facebook</a> |
